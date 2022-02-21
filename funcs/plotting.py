@@ -69,3 +69,27 @@ def plot_data(x, y):
         ax.set_title("Label: %i" % label)
 
     plt.subplots_adjust(wspace=0.5, hspace=0.5)
+
+def plot_latent_space(latent_output, y_train, n_classes):
+    """
+    Plot the activations from the 2 node Dense layer for all of the training data.
+    Each digit is coloured separately.
+
+    Parameters
+    ----------
+    latent_output : output from newmodel.predict()
+    y_train : true labels
+    n_classes : number of digits, in this case 10
+    
+    """
+    # Find the maximum extent of activations which we use to set xlim and ylim for plotting
+    xlim, ylim = np.array([latent_output.min(axis=0), latent_output.max(axis=0)]).T 
+    
+    fig, ax = plt.subplots(1,1, figsize=(10,10))
+    for i in range(n_classes):
+        mask = y_train == i
+        ax.scatter(*latent_output[mask].T, s=0.5, label=i)
+
+    lgnd = ax.legend()
+    for handle in lgnd.legendHandles:
+        handle.set_sizes([100])
