@@ -60,6 +60,8 @@ def plot_data(x, y):
     y : y_train or y_test
     
     """
+    if x.shape[-1] == 1:
+        x = x.reshape(x.shape[:-1])
     fig, axes = plt.subplots(nrows=6, ncols=6, figsize=(10, 10))
     for ax, image, label in zip(axes.ravel(), x, y):
         ax.set_axis_off()
