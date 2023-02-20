@@ -1,12 +1,10 @@
 # Machine Learning Workshops
 
 ## About
-Repository of resources for the Edinburgh Physics PhD Student Highland Conference 2022.
+Repository of resources for the Edinburgh Physics PhD Student Highland Conference.
 ## Link to workshops:
-* <a href="https://colab.research.google.com/github/harry-rendell/MLworkshop/blob/main/notebooks/workshop_1.ipynb"> Workshop 1 - Introduction to Machine Learning </a>
-    * <a href="https://colab.research.google.com/github/harry-rendell/MLworkshop/blob/main/notebook_solns/workshop_1_soln.ipynb"> Solution </a>
-* <a href="https://colab.research.google.com/github/harry-rendell/MLworkshop/blob/main/notebooks/workshop_2.ipynb"> Workshop 2 - Advanced Machine Learning </a>
-    * <a href="https://colab.research.google.com/github/harry-rendell/MLworkshop/blob/main/notebook_solns/workshop_2_soln.ipynb"> Solution </a>
+* <a href="https://colab.research.google.com/github/harry-rendell/MLworkshop/blob/main/notebooks/workshop_1.ipynb"> Workshop 1 - Introduction to Machine Learning </a> <a href="https://colab.research.google.com/github/harry-rendell/MLworkshop/blob/main/notebook_solns/workshop_1_soln.ipynb"> (solution) </a>
+* <a href="https://colab.research.google.com/github/harry-rendell/MLworkshop/blob/main/notebooks/workshop_2.ipynb"> Workshop 2 - Advanced Machine Learning </a> <a href="https://colab.research.google.com/github/harry-rendell/MLworkshop/blob/main/notebook_solns/workshop_2_soln.ipynb"> (solution) </a>
 
 Note: you will need a google account to be able to run these notebooks. 
 If you would rather run locally, then download the mlworkshop.yml file and use
