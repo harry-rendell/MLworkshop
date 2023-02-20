@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-def plot_classifications(x_test, y_test, predicted):
+def plot_classifications(x_input, y_test, predicted):
     """
     Plot a random set of test data with predicted and true labels on an 8x8 grid
 
@@ -12,6 +12,7 @@ def plot_classifications(x_test, y_test, predicted):
     predicted : model predictions of x_train
 
     """
+    x_test = np.squeeze(x_input)
     nrows = 8
     ncols = 8
     shuffled_idxs = np.random.randint(0, len(x_test), nrows*ncols)
