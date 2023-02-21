@@ -9,9 +9,11 @@ Repository of resources for the Edinburgh Physics PhD Student Highland Conferenc
 Note: you will need a google account to be able to run these notebooks. 
 If you would rather run locally, then download either clone or download this repository and run
 	```conda env create -f mlworkshop.yml```
-in your anaconda prompt in the directory of the repository to create a conda environment with the required packages. Then run jupyter notebook using
+in your anaconda prompt in the directory of the repository to create a conda environment with the required packages. Then, in the same anaconda prompt, run Jupyter Notebook using
 	```jupyter notebook .```
-in the same anaconda prompt.
+or alternatively
+	```jupyter lab .```
+if you prefer JupyterLab.
 
 ## Contents
 * ```notebooks/``` - Incomplete notebooks
