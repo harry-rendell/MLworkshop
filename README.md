@@ -7,9 +7,11 @@ Repository of resources for the Edinburgh Physics PhD Student Highland Conferenc
 * <a href="https://colab.research.google.com/github/harry-rendell/MLworkshop/blob/main/notebooks/workshop_2.ipynb"> Workshop 2 - Advanced Machine Learning </a> 
 
 Note: you will need a google account to be able to run these notebooks. 
-If you would rather run locally, then download the mlworkshop.yml file and use
+If you would rather run locally, then download either clone or download this repository and run
 	```conda env create -f mlworkshop.yml```
-to create a conda environment with the required packages. Then download the notebooks and launch them while in this environment.
+in your anaconda prompt in the directory of the repository to create a conda environment with the required packages. Then run jupyter notebook using
+	```jupyter notebook .```
+in the same anaconda prompt.
 
 ## Contents
 * ```notebooks/``` - Incomplete notebooks
