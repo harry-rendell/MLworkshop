@@ -221,4 +221,4 @@ dependencies:
   - zstd=1.5.2=h19a0ad4_0
   - pip:
     - qtconsole==5.4.0
-prefix: C:\Users\harry.rendellbhatti\Miniconda3\envs\mlworkshop
+    
